@@ -166,6 +166,17 @@ a {
     
 }
 
+.advent-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #F4F4fD;
+    border-radius: 4px;
+    border: 1px solid #8E8f99;
+    margin-bottom: 8px; 
+}
+
 .advent-subtitle {
     font-weight: 500;
     font-size: 20px;
