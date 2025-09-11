@@ -94,7 +94,7 @@ a {
 
 
 .nav-links:hover, 
-.nav-links:focus {}
+.nav-links:focus,
 .address-link:hover, 
 .address-link:focus{
     color: #404bbf;
