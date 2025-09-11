@@ -363,7 +363,38 @@ a {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-}  
+    display: flex;
+} 
+
+
+
+.footer-container {
+    margin-left: 120px;
+}
+.footer-social{
+    display: flex;
+    align-items: column;
+    margin-right: 120px;
+
+    }
+.footer-social-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #Ffffff;
+    margin-bottom: 16px;
+}
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+    padding-left: 0;
+} 
+.footer-social-item {
+    margin-right: 24px;
+}
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
