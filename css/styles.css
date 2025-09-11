@@ -275,6 +275,8 @@ a {
     justify-content: center;
     margin-top: 8px;
 }
+
+/*-- списку соцмереж --*/
 .team-social-link {
     background-color: #4D5AE5;
     width: 40px;
@@ -284,7 +286,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: #404BBF;
+}
+
 
 .team-item-name {
     text-transform: capitalize;
